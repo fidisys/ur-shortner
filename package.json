@@ -1,0 +1,22 @@
+{
+  "name": "url-shortner",
+  "version": "0.1.0",
+  "description": "URL shortner for internal use",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/fidisys/url-shortner.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fidisys/url-shortner/issues"
+  },
+  "homepage": "https://github.com/fidisys/url-shortner#readme",
+  "baseUrl": "https://short.fidisys.com",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "devDependencies": {
+    "netlify-shortener": "^1.0.4"
+  }
+}
